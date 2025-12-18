@@ -1,0 +1,63 @@
+{
+  "designSystem": {
+    "philosophy": "Dark Glassmorphism",
+    "description": "A modern, textured interface featuring frosted glass elements over a technical dark grid background. The design combines transparency, blur effects, and the 'Dark Aesthetics' color scheme with a bold amber-gold glow.",
+    "colorPalette": {
+      "background": {
+        "primary": "#000000 (Grid Pattern)",
+        "glass": "rgba(107, 114, 128, 0.1) (Gray-500 @ 10%)", 
+        "glassHover": "rgba(107, 114, 128, 0.2)"
+      },
+      "text": {
+        "primary": "#FFFFFF",
+        "secondary": "rgba(255, 255, 255, 0.7)",
+        "label": "#FCD34D"
+      },
+      "accents": {
+        "primary": "#FCD34D",
+        "icon": "#FCD34D"
+      },
+      "borders": {
+        "glass": "rgba(255, 255, 255, 0.1)",
+        "glassHover": "rgba(255, 255, 255, 0.4)"
+      }
+    },
+    "typography": {
+      "fontFamily": "Inter, sans-serif",
+      "hierarchy": {
+        "cardTitle": {
+          "weight": "Regular/Medium",
+          "size": "1rem (16px)",
+          "color": "white"
+        },
+        "metaLabel": {
+          "weight": "Bold",
+          "size": "0.65rem",
+          "transform": "uppercase",
+          "letterSpacing": "0.15em",
+          "color": "accent-primary"
+        }
+      }
+    },
+    "components": {
+      "card": {
+        "shape": "Rounded Rectangle",
+        "borderRadius": "16px (1rem)",
+        "padding": "20px (1.25rem)",
+        "elevation": "Backdrop Blur (Standard)",
+        "texture": "bg-gray-500 bg-clip-padding backdrop-filter backdrop-blur bg-opacity-10 backdrop-saturate-100 backdrop-contrast-100",
+        "layout": "Flex row with space-between",
+        "interaction": "Scale up (1.02x), Increase Opacity, Golden Center Pulse Glow"
+      },
+      "icons": {
+        "style": "Line/Stroke",
+        "size": "Small (12-16px)",
+        "color": "accent-primary"
+      }
+    },
+    "spacing": {
+      "cardGap": "16px",
+      "containerPadding": "24px"
+    }
+  }
+}
